@@ -9,6 +9,8 @@ const Home: NextPage = () => {
 
             <main className={styles.main}>
                 Hello World
+                <br/><br/>
+                Let&apos;s Code!
             </main>
         </div>
     )
