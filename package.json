@@ -1,6 +1,7 @@
 {
   "name": "project-1-frontend",
   "version": "0.1.0",
+  "description": "...",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,17 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignitedevclub/project-1-frontend.git"
+  },
+  "keywords": [],
+  "author": "IgniteDevClub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignitedevclub/project-1-frontend/issues"
+  },
+  "homepage": "https://github.com/ignitedevclub/project-1-frontend#readme",
   "dependencies": {
     "next": "12.1.0",
     "next-themes": "^0.1.1",
