@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #fff;
+  --black: #000;
+
+  --grey-100: #efefef;
+  --grey-transparent-100: #f2f3f5cc;
+
+  --red-100: #ffafbf;
+  --red-transparent-100: #fa4362b3;
+
+  --green-100: #6BFF90;
+  --green-transparent-100: #50fa7b80;
+
+  --blue-100: #b3b9ff;
+  --blue-transparent-100: #6470fab3;
+
+  --purple-100: #835afd;
+  --purple-transparent-100: #8257e680;
+
+  --yellow-100: #fff0c8;
+  --yellow-200: #ffe6a1;
+  --yellow-300: #ffd796;
+  --yellow-400: #ffcb2f;
+
+  --brown-100: #b97850;
+  --brown-200: #a5694b;
+  --brown-300: #925f4a;
+
+  /* ~~~~~~~~~~~~~~~~ Default ~~~~~~~~~~~~~~~~ */
+  --shadow-5p: rgb(0 0 0 / 5%);
+  --shadow-1p: rgb(0 0 0 / 1%);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background-color: var(--grey-100);
+  color: var(--green-transparent-100);
+}
+body,
+button,
+input,
+textarea { font: 400 1rem "inter", sans-serif;               }
+button   { cursor: pointer;                                  }
+ol, ul   { padding-left: 0; margin-top: 0; margin-bottom: 0; }
+a        { color: inherit; text-decoration: none;            }
