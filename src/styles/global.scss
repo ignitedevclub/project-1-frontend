@@ -35,12 +35,42 @@
   --shadow-5p: rgb(0 0 0 / 5%);
   --shadow-1p: rgb(0 0 0 / 1%);
 }
+[data-theme='light'] {
+  /* ~~~~~~~~~~~~~~~~ Default ~~~~~~~~~~~~~~~~ */
+  --background : var(--grey-100);
+  --title      : var(--green-100);
+  --text       : var(--green-transparent-100);
 
-html { scroll-behavior: smooth; }
-body {
-  background-color: var(--grey-100);
-  color: var(--green-transparent-100);
+  /* Cookie Consent ------- */
+  --ckc-background   : var(--yellow-100);
+  --ckc-bg-btn       : var(--brown-100);
+  --ckc-bg-btn-hover : var(--brown-200);
+  --ckc-fg-btn       : var(--white);
+  --ckc-border-btn   : transparent;
 }
+[data-theme='dark'] {
+  /* ~~~~~~~~~~~~~~~~ Default ~~~~~~~~~~~~~~~~ */
+  --background : var(--black);
+  --title      : var(--purple-100);
+  --text       : var(--blue-100);
+
+  /* Cookie Consent ------- */
+  --ckc-background   : var(--brown-300);
+  --ckc-bg-btn       : var(--yellow-200);
+  --ckc-bg-btn-hover : var(--yellow-300);
+  --ckc-fg-btn       : var(--brown-100);
+  --ckc-border-btn   : var(--brown-300);
+}
+
+html {
+  scroll-behavior: smooth;
+
+  body {
+    background-color: var(--background);
+    color: var(--text);
+  }
+}
+
 body,
 button,
 input,
